@@ -4,7 +4,8 @@ const path = require('path');
 require('dotenv').config();
 
 // Initialize Firebase Admin
-const serviceAccount = require('./serviceAccountKey.json');
+// Set SERVICE_ACCOUNT_KEY in your .env file as a JSON string
+const serviceAccount = JSON.parse(process.env.SERVICE_ACCOUNT_KEY);
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://real-time-database-4f52e-default-rtdb.asia-southeast1.firebasedatabase.app/"
