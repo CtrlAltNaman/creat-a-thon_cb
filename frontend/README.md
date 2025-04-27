@@ -3,10 +3,15 @@ This is the frontend for a real-time fire alarm monitoring dashboard. It provide
 
 🛠️ Tech Stack
 Next.js: React framework for server-side rendering and routing.
+
 React: UI library for building interactive interfaces.
+
 Tailwind CSS: Utility-first CSS framework for styling.
+
 Firebase: Real-time database and authentication.
+
 TypeScript: Typed JavaScript for safer code.
+
 Radix UI: Accessible UI primitives.
 
 📁 Folder & File Structure
